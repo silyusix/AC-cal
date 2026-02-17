@@ -1,0 +1,31 @@
+# Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/.env.local
+frontend/.env.development.local
+frontend/.env.test.local
+frontend/.env.production.local
+
+# Backend
+backend/venv/
+backend/.venv/
+backend/__pycache__/
+backend/*.py[cod]
+backend/*$py.class
+backend/.pytest_cache/
+backend/dist/
+backend/build/
+backend/*.spec
+
+# Root node_modules
+node_modules/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Gemini / IDE files
+.gemini/
+.specify/
+.vscode/
+.idea/
