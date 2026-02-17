@@ -2,7 +2,7 @@
 
 AC-cal 是一款专为自动控制理论学习与工程设计打造的全栈 Web 应用程序。它结合了现代化的前端交互体验与强大的后端科学计算能力，提供从时域分析、频域分析到校正装置设计的一站式解决方案。
 
-## 🚀 核心功能
+##  核心功能
 
 ### 1. 系统建模与分析
 *   **正向分析 (Transfer Function Analysis)**: 输入分子分母系数，自动计算上升时间、峰值时间、超调量、调节时间等关键时域指标，并判断系统稳定性。
@@ -19,7 +19,7 @@ AC-cal 是一款专为自动控制理论学习与工程设计打造的全栈 Web
 *   **滞后校正 (Lag)**: 根据期望稳态速度误差系数 $K_v$ 自动设计，已解决数值计算稳定性问题。
 *   **超前-滞后校正 (Lag-Lead)**: 综合解决稳态精度与动态响应要求的复杂设计。
 
-## 🛠 技术栈
+##  技术栈
 
 *   **前端 (Frontend)**: 
     *   React + Vite
@@ -33,7 +33,7 @@ AC-cal 是一款专为自动控制理论学习与工程设计打造的全栈 Web
 *   **打包 (Packaging)**:
     *   PyInstaller (支持生成独立 Windows .exe 执行文件)
 
-## 📦 快速开始
+##  快速开始
 
 ### 前端启动
 ```bash
@@ -50,11 +50,4 @@ source venv/bin/activate  # Windows 使用 .\venv\Scripts\activate
 pip install -r requirements.txt
 uvicorn main:app --reload
 ```
-
-## 🖥 打包发布
-本项目支持将前后端整合打包为单个 `.exe` 文件：
-1. 在 `frontend` 运行 `npm run build`。
-2. 在 `backend` 激活虚拟环境后运行 `pyinstaller main.spec`。
-
-## 🤝 贡献与反馈
-欢迎提交 Issue 或 Pull Request 来完善此项目！
+整个项目都是ai写的代码，希望对大家有帮助
